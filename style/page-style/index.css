@@ -86,12 +86,12 @@
 }
 
 .feature-illus {
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    /* height: 300px; */
 }
 
 .feature-text {
     flex: 1;
     box-sizing: border-box;
-    padding: 20px 0 0 100px;
+    padding: 20px 0 0 40px;
 }

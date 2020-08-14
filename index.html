@@ -49,7 +49,7 @@
             </div>
         </div>
         <div class='feature-container'>
-            <div class='feature-illus' id='dr1'></div>
+            <img class='feature-illus' src='./img/feature1.svg' />
             <div class='feature-text'>
                 <h2>High-level Specifications</h2>
                 <p>Canis decouples specification from implementation and enables concise, high-level specifications
@@ -64,10 +64,10 @@
                     data attributes. Mapping each unit to one time interval facilitates a
                     meaningful ordering of animation sequences.</p>
             </div>
-            <div class='feature-illus' style='width: 430px' id='dr2'></div>
+            <img class='feature-illus' src='./img/feature2.svg' />
         </div>
         <div class='feature-container'>
-            <div class='feature-illus' id='dr3'></div>
+            <img class='feature-illus' src='./img/feature3.svg' />
             <div class='feature-text'>
                 <h2>Cross-platform Deployment</h2>
                 <p>Canis is able to target multiple platforms including Android,
@@ -127,27 +127,6 @@
             loop: true,
             autoplay: true,
             path: 'img/exmps/purchases.json'
-        });
-        lottie.loadAnimation({
-            container: document.getElementById('dr1'),
-            renderer: 'svg',
-            loop: true,
-            autoplay: true,
-            path: 'img/dr1.json'
-        });
-        lottie.loadAnimation({
-            container: document.getElementById('dr2'),
-            renderer: 'svg',
-            loop: true,
-            autoplay: true,
-            path: 'img/dr2.json'
-        });
-        lottie.loadAnimation({
-            container: document.getElementById('dr3'),
-            renderer: 'svg',
-            loop: true,
-            autoplay: true,
-            path: 'img/dr3.json'
         });
         window.onscroll = function () {
             if (document.body.scrollTop > 680 || document.documentElement.scrollTop > 680) {
